@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Rota";
+    src: url(/font/Rota-SemiBold.otf)  format("opentype");
+}
+@font-face {
+    font-family: "Rotab";
+    src: url(/font/Rota-Bold.otf)  format("opentype");
+}
+@font-face {
+    font-family: "Rotareg";
+    src: url(/font/Rota-Regular.otf)  format("opentype");
+}
+@font-face {
+    font-family: "Rotaeb";
+    src: url(/font/Rota-ExtraBold.otf)  format("opentype");
+}
+
+.nd {
+   -webkit-user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
